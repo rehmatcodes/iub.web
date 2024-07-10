@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    color: #242424;
+}
+.containor{
+    width: 1300px;
+    margin: 0px auto;
+}
+.header{
+    background-color: darkblue;
+    padding: 6px ;
+}
+.header b{
+    background-color: #fff;
+    color: yellow;
+    padding: 10px ;
+    font-size: 20px ;
+}
+.header marquee{
+    font-size: 20px ;
+    color: #fff;
+    width: 80%;
+}
+.logo{
+    height: 65px;
+}
+nav{
+    float: right;
+    padding: 25px 0px ;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px ;
+    padding: 2px 10px ;
+    font-weight: 500;
+}
+
+.slider img {
+    width: 100%; /* Make the image take the full width of the slider */
+    height: 400px ; 
+    /* display: block; Remove any extra space below the image */
+}
+.slider {
+    position: relative;
+    width: 100%;
+}
+.slider img {
+    width: 100%;
+    height: 400px;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.text-overlay b{
+    color: yellow;
+}
+.bg-color{
+    background-color: #f0f3fa;
+}
+.main-section{
+    width: 100%;
+    float: left;
+    padding: 100px 0px 100px 0px;
+}
+.event{
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+    background-color: #fff;
+}
+.event i{
+    color: red;
+    font-size: 14px ;
+}
+.event div{
+    padding: 10px ;
+}
+.event .heading{
+    padding: 10px ;
+    color: #fff;
+    background-color: #0055a4;
+    text-align: center;
+    font-size: 22px ;
+    font-weight: 400;
+    margin-bottom: 10px ;
+}
+.event ul li{
+    margin-bottom: 20px  ;
+    width: 100%;
+    float: left;
+    list-style: none;
+}
+.campus-news span{
+    width: 80px ;
+    float: left;
+}
+.campus-news h2{
+    font-weight: 600;
+    font-size: 16px ;
+}
+.campus-news h6{
+    font-weight: 500;
+    font-size: 13px ;
+    color: red;
+}
+.campus-news p{
+    font-size: 14px ;
+}
+.event-date{
+    background-color: red;
+    float: left;
+    text-align: center;
+    font-size: 14px ;
+    color: #fff;
+    padding: 8px 12px ;
+    margin-right: 10px ;
+}
+.heading{
+    font-size: 28px ;
+    font-weight: 500;
+    margin-bottom: 30px ;
+    color: #0055a4;
+
+}
+.subhead{
+    font-size: 18px ;
+    color: red;
+    font-weight: 500;
+}
+.about-us div{
+    width: 45%;
+    float: left;
+    line-height: 36px ;
+    font-size: 18px ;
+}
+.about-us h4{
+    font-size: 18px ;
+    color: red;
+    font-weight: 500;
+}
+.about-us p{
+    font-size: 16px ;
+    margin-bottom: 20px ;
+    padding-right: 30px ;
+    line-height: 23px ;
+}
+.about-us img{
+    
+    margin: 50px;
+    height: 400px ;
+    width: 40%;
+    float: left;
+}
+.award p{
+    width: 100%;
+    float: left;
+    font-size: 16px ;
+}
+.award img{
+    width: 100%;
+}
+.award b{
+    min-height: 115px ;
+    float: left;
+    margin-bottom: 20px ;
+}
+.award h3{
+    font-size: 23px ;
+    margin-bottom: 20px ;
+    text-align: center;
+}
+.chairman img{
+    width: 150px ;
+    float: left ;
+    margin-right: 10px ;
+}
+.chairman h2{
+    font-size: 22px ;
+    margin-top: 30px ;
+}
+.chairman h4{
+    font-size: 16px ;
+    color: red;
+    font-weight: 400;
+}
+.testemonial{
+    width: 30.5%;
+    float: left;
+    margin-right: 2.5%;
+}
+.main-section {
+    padding: 20px;
+}
+
+.containor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.subhead {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.second-section{
+    width: 100%;
+    float: left;
+    padding: 0px 100px 0px 100px ;
+}
+.mainhead{
+    font-size: 18px ;
+    color: red;
+    font-weight: 500;
+}
+.parent-reviews div{
+    font-size: 18px ;
+    font-weight: 500;
+}
+.parent-reviews h4{
+    font-size: 18px ;
+    color: red;
+    font-weight: 500;
+}
+.parent-reviews p{
+    font-size: 16px ;
+    margin-bottom: 20px ;
+    padding-right: 30px ;
+    line-height: 23px ;
+}
+.parent-reviews img{
+    margin: 50px;
+    height: 400px ;
+    width: 40%;
+    float:right;
+}
+.gallery img{
+    width: 20%;
+    margin-right: 1.5%;
+    margin-bottom: 20px ;
+}
+   .footer{
+    background-color: #f0f3fa;
+    padding: 40px 0px ;
+    width: 100%;
+    float: left;
+}
+.footer-logo{
+   height: 70px ;
+   width: auto;    
+}
+.footer-set{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px ;
+    font-size: 16px ;
+}
+.footer-set a{
+    color: #202020;
+    margin-left: 10px ;
+    text-decoration: none;
+}
+nav a:hover{
+    border: 2px solid black;
+    color: yellow;
+}
+.footer-set a{
+    color: navy;
+}
+.footer-set a:hover{
+    color: yellow;
+}
+@keyframes marquee-animation {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.header marquee {
+    animation: marquee-animation 15s linear infinite;
+}
+.slider img {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+nav a:hover {
+    color: yellow;
+    border: 2px solid black;
+    transition: color 0.3s ease, border 0.3s ease;
+}
+.text-overlay {
+    animation: textSlideIn 1s ease-out;
+}
+
+@keyframes textSlideIn {
+    from { transform: translate(-50%, -150%); }
+    to { transform: translate(-50%, -50%); }
+}
+.main-section {
+    opacity: 10;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+
+    
+
+
+
+
+
+
+
